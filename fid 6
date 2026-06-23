@@ -1,0 +1,19 @@
+print("Hello, World!"); print("I am a simple Python program.") # مخرجات نصية: Type: str (String)
+print(type(10))                                              # Type: int (Integer - عدد صحيح)
+print(type(100))                                             # Type: int (Integer - عدد صحيح)
+print(type(-500))                                            # Type: int (Integer - عدد صحيح)
+print(type(100.3))                                           # Type: float (Floating point - عدد عشري)
+print(type(1.4444))                                          # Type: float (Floating point - عدد عشري)
+print(type(-1000.333))                                       # Type: float (Floating point - عدد عشري)
+
+print(type("Hello"))                                         # Type: str (String - نص)
+
+print(type([1,1,23,4]))                                      # Type: list (قائمة)
+
+print(type((1,2,3,4)))                                       # Type: tuple (صف)
+
+print(type({"one":1,"two":2, "three":3}))                    # Type: dict (Dictionary - قاموس)
+
+
+print(2==2)                                                  # مخرجات منطقية: Type: bool (Boolean - True)
+print( type(2==2))                                           # Type: bool (Boolean - قيمة منطقية)
