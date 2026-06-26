@@ -1,0 +1,6 @@
+_myVaribel="my value"
+print(_myVaribel)
+
+
+
+
