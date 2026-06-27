@@ -1,0 +1,10 @@
+x=10
+x="haloow"
+print(x)
+help("keywords")
+
+a,s,d=1,2,3
+
+print(a)
+print(s)
+print(d)
