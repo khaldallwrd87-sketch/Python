@@ -1,0 +1,20 @@
+mystringone='this is single quote'
+mystringtwo="this is double quote"
+
+mystringthree='this is single quote"test"'
+mystringfour="this is double quote'test'"
+
+print(mystringone)
+print(mystringtwo)
+print(mystringthree)
+print(mystringfour)
+
+mystringfive='''first
+second 'test' "test"
+third'''
+mystringsix="""first
+second 'test' "test"
+third"""    
+
+print(mystringfive)
+print(mystringsix)
