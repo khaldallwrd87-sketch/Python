@@ -1,0 +1,16 @@
+mystring="i love python"
+
+#Indexing
+print(mystring[0]) # i
+print(mystring[1]) # space
+print(mystring[-6]) # p
+#Slicing
+print(mystring[0:6]) # i love
+print(mystring[3:7]) # love
+print(mystring[:13]) # i love python
+print(mystring[6:]) # python
+print(mystring[:]) # i love python
+
+print(mystring[::2]) # ilv yhn
+print(mystring[::1]) # i love python
+print(mystring[::3]) # i lve pytn
