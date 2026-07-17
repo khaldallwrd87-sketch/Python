@@ -1,0 +1,24 @@
+a="i love python"
+b="        i love python    "
+print(len(a))
+print(len(b))
+k=" #######    i love python ####### "
+print(k.strip(" #")) 
+print(k.rstrip(" #")) 
+print(k.lstrip(" # "))   
+
+n="i love python 2d and 3d"
+print(n.title())
+print(n.capitalize())
+
+c,v,e="1","11","111"
+print(c)
+print(v)
+print(e)    
+
+print(c.zfill(3))
+print(v.zfill(3))
+print(e.zfill(3))   
+
+g="Khaled"
+print(g.upper())
