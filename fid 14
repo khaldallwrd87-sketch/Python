@@ -1,0 +1,41 @@
+a="i love python and php"
+print(a.split())
+
+b="i- love -python- and- php"
+print(b.split("-"))
+
+
+c="i- love -python- and- php"
+print(c.split("-", 2))
+
+
+d="i-love-python-and-php"
+print(d .rsplit("-", 2))
+
+e="Khaled"
+print(e.center(9))
+print(e.center(16, '*'))
+
+
+f="love python and php and java and csharp"
+print(f.count("and"))
+print(f.count("and",0,20))
+print(f.count("love"))
+
+
+g="I love python and pHp"
+h="i love python and php"
+
+print(g.swapcase())
+print(h.swapcase()) 
+
+i="I love python and pHp"
+print(i.startswith("I"))
+print(i.startswith("i"))
+print(i.startswith("p",7,10))
+
+
+j="I love python and pHp"
+print(j.endswith("p"))
+print(j.endswith("P"))
+print(j.endswith("p",7,10))
