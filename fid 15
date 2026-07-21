@@ -1,0 +1,48 @@
+a="i love python"
+
+print(a.index("p"))   
+print(a.index("p", 0,8))   
+
+b="i love python"
+print(b.find("p"))
+print(b.find("p", 0,8))
+print(b.find("p", 0,5))
+
+c="Khaed"
+print(c.rjust(10))
+print(c.rjust(10,"@"))
+
+d="Khaed"
+print(d.ljust(10))
+print(d.ljust(10,"@"))
+
+e="""frist line
+second line 
+third line"""
+
+print(e.splitlines())
+
+f="first line\nsecond line\nthird line"
+
+print(f.splitlines())
+
+g="hello\tworld\tlove\tpython"
+
+print(g.expandtabs(1))
+
+one="i love python and 3G"
+
+print(one.istitle())
+
+three="  "
+print(three.isspace())
+
+five="i love python"
+six="I Love Python"
+print(five.islower())
+print(six.islower())  
+
+seven="khaled_abdo"
+seven="khaled abdo100"
+seven="khaled--abdo"
+print(seven.isidentifier())
