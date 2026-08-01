@@ -1,0 +1,8 @@
+a="hello one two three one one "
+print(a.replace("one","1")) 
+print(a.replace("one","1",1)) 
+
+my_list=["Khaled","AbdelFadil","Mohamed"]
+
+print(" ".join(my_list))
+print(" -".join(my_list))
