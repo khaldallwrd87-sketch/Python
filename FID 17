@@ -1,0 +1,25 @@
+name="Khaled"
+age="19"
+rank="11"
+
+print("My name is " + name + " and I am " + age + " years old. My rank is " + rank)
+print("my name is: %s" % name)
+print("my age is: %s" % age)
+print("my rank is: %s" % rank)
+print("my name is: %s AND my age is: %s AND my rank is: %s" % (name, age, rank))
+
+N="Khaled"
+l="python"
+y="10"
+
+print("my name is: %s AND my language is: %s AND my year is: %s" % (N, l, y))   
+
+
+mynumber=10
+print("my number is: %d" % mynumber)
+print("my number is: %f" % mynumber)
+print("my number is: %.2f" % mynumber)
+
+mylongstring="hello my name is khaled and I am 19 years old and I am learning python programming language"
+print("message is: %s" % mylongstring)
+print("message is: %.5s" % mylongstring)
