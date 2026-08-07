@@ -1,0 +1,42 @@
+name="Khaled"
+age=20
+rank=18
+print("my name is: {}".format(name))
+print("my age is: {}".format(age))
+print("my rank is: {}".format(rank))
+
+print("my name is: {:s}, my age is: {:d}, my rank is: {:.2f}".format(name, age, rank))
+
+n="Khaled"
+i="python"
+y=10
+
+print("my name is: {:s} i am learning {:s} and i have {:d} years old".format(n, i, y))
+
+number=10
+print("the number is: {:d}".format(number))
+print("the number is: {:f}".format(number))
+print("the number is: {:,.2f}".format(number))
+
+mylongstring="hello my name is khaled and i am learning python programming language"
+print("the string is: {}".format(mylongstring))
+print("the string is: {:.5s}".format(mylongstring))
+
+myManey=1000000
+print("the money is: {}".format(myManey))
+print("the money is: {:,}".format(myManey))
+
+a,b,c="one","two","three"
+print("the values are: {}, {}, {}".format(a, b, c))
+print("the values are: {1}, {2}, {0}".format(a, b, c))
+
+
+x,y,z=10,20,30
+print("the values are: {}, {}, {}".format(x, y, z))
+print("the values are: {1}, {2}, {0}".format(x, y, z))
+print("the values are: {1:.2f}, {2:,.2f}, {0:3f}".format(x, y, z))
+
+myname="Khaled"
+mtage=20
+print("my name is:{myname} and my age is:{mtage}")
+print(f"my name is:{myname} and my age is:{mtage}")
