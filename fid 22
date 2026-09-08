@@ -1,0 +1,42 @@
+#----lists methods----
+
+
+#-----1. append() method----
+
+myFrinds = ["John", "Mike", "Sarah"]
+myOldFrinds = ["17", "14"]
+myFrinds.append("David")
+myFrinds.append(True)
+myFrinds.append(150.44)
+myFrinds.append(myOldFrinds )
+print(myFrinds)  # Output: ['John', 'Mike', 'Sarah', 'David', True, 150.44, ['17', '14']]
+print(myFrinds[6])  # Output: ['17', '14']
+print(myFrinds[6][0])  # Output: '17'
+print(myFrinds[6][1])  # Output: '14'
+print(myFrinds[2])  # Output: 'Sarah'
+
+
+#-----2. extend() method----
+a=[1, 2, 3]
+b=[4, 5, 6]
+c=["one", "two", "three"]
+a.extend(b)
+a.extend(c)
+print(a)  # Output: [1, 2, 3, 4, 5, 6, 'one', 'two', 'three']
+
+#-----3. remove() method----
+myList = [1, 2, 3, 4, 5,"Khaled",True,"Khaled","Khaled"]
+myList.remove("Khaled")
+print(myList)  # Output: [1, 2, 3, 4, 5, True, 'Khaled', 'Khaled']
+
+#-----4. sort() method----
+y=[1,2,3,100,120,-10,17,29]
+y.sort()
+print(y)  # Output: [-10, 1, 2, 3, 17, 29, 100, 120]
+y.sort(reverse=True)
+print(y)  # Output: [120, 100, 29, 17, 3, 2, 1, -10]
+
+#-----5 reverse() method----
+z=[1,2,3,100,120, "Khaled",-10,17,29]
+z.reverse()
+print(z)  # Output: [29, 17, -10, "Khaled", 120, 100, 3, 2, 1]
