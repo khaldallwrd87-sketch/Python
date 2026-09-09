@@ -1,0 +1,38 @@
+#-------lists methods----
+#  1.clear() - removes all elements from the list 
+
+a=[1, 2, 3, 4, 5]
+a.clear()
+print(a) # Output: []
+
+#  2.copy() - returns a shallow copy of the list
+
+b=[1, 2, 3, 4, 5]
+c=b.copy()
+print(b) # Output: [1, 2, 3, 4, 5]
+print(c) # Output: [1, 2, 3, 4, 5]
+b.append(6)
+print(b) # Output: [1, 2, 3, 4, 5, 6]
+print(c) # Output: [1, 2, 3, 4, 5]
+
+# 3.count() - returns the number of occurrences of a specified element in the list
+
+d=[1, 2, 3, 4, 5, 1, 2, 1]
+print(d.count(1)) # Output: 3
+
+# 4. index() - returns the index of the first occurrence of a specified element in the list
+
+e=["Khaleel", "Ahmed", "Youssef"]
+print(e.index("Khaleel")) # Output: 0
+
+# 5. insert() - inserts an element at a specified position in the list
+
+f=[1, 2, 3, 4, 5 ,"a","b"]
+f.insert(0,"test")  
+print(f) # Output: ['test', 1, 2, 3, 4, 5, 'a', 'b']
+
+# 6. pop() - removes and returns the element at a specified position in the list
+
+g=[1,2,3,4,5]
+print(g.pop(2)) # Output: 3
+print(g) # Output: [1, 2, 4, 5]
