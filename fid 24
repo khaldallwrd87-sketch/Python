@@ -1,0 +1,40 @@
+#--------Tuples-------- 
+#1- tuple items are enclosed in parentheses ()
+#2- you can remove the parentheses when you create a tuple
+#3-tuple items are ordered ,to use index to access the items
+#4- tuple are immutable, you can't change the items after the tuple is created
+#5-tuple items can be of any data type
+#6- tuple can contain duplicate items
+#7- operators can be used to concatenate and repeat tuples
+# 
+
+
+#tuple syntex & type test
+
+myKhaledone=("Khaled","Abdalfdil")
+myKhaledtwo="Khaled","Abdalfdil"
+
+print(myKhaledone) #output: ('Khaled', 'Abdalfdil')
+print(myKhaledtwo) #output: ('Khaled', 'Abdalfdil')
+
+print((type)(myKhaledone)) #output: <class 'tuple'>
+print((type)(myKhaledtwo)) #output: <class 'tuple'>
+
+#tuple indexing
+myKhaledthree=("Khaled","Abdalfdil",1999,2024)
+print(myKhaledthree[0]) #output: Khaled
+print(myKhaledthree[1]) #output: Abdalfdil
+print(myKhaledthree[2]) #output: 1999
+print(myKhaledthree[3]) #output: 2024
+
+#tuple assing values
+
+myKhaledfour=(1,2,3,4,5)
+#myKhaledfour[2]="three" #this will raise an error because tuples are immutable
+#print(myKhaledfour) #output: (1, 2, 3, 4, 5)
+
+#tuple items 
+
+myKhaledfive=("Khaled","Abdalfdil",1999,2024,"Khaled",True)
+print(myKhaledfive[1])
+print(myKhaledfive[-1])
