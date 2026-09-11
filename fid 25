@@ -1,0 +1,47 @@
+#------ tuple-------
+
+#------tuple with one element-------
+
+myTuple1=("Hello",)
+myTuple2="Hello",
+print(myTuple1)
+print(myTuple2)
+
+print(type(myTuple1))
+print(type(myTuple2))
+
+print(len(myTuple1))
+print(len(myTuple2))
+
+#------tuple concatenation-------
+a=(1,2,3)
+b=(4,5,6)
+c=a+b
+d=a+(12,)+b
+print(c)
+print(d)
+
+#------tuple , list , string repeat (*)-------
+
+myString="Khaled"
+myList=[1,2,3]
+myTuple=("A,", "B", "C")
+print(myString*3)
+print(myList*3)
+print(myTuple*3)
+
+#----methods => count()-------
+print(myList.count(1))
+print(myTuple.count("A,"))
+
+#----methods => index()-------
+b=(1,2,3,4,5,6,7,8,9)
+print( "im kHALED {:d}". format(b.index(1)))
+print(f"The index of 5 is: {b.index(5)}")
+
+#-----tuple destruct------
+a=("a","b",4,"c")
+x,y,_,z=a
+print(x)
+print(y)
+print(z)
