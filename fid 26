@@ -1,0 +1,9 @@
+mySet1={"Khaled","Ali","Ahmed",100}
+print(mySet1)
+#print(mySet1[0])  # This will raise an error because sets are unordered and do not support indexing
+
+mySet2={1,2,3,4,5}  
+#print(mySet2[0:3])
+
+mySet3={"Khaled",100,200,100.5,True}
+print(mySet3)   
