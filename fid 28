@@ -1,0 +1,58 @@
+# set methoods-----
+
+# difference()=====
+
+from pprint import pprint
+
+
+a={1, 2, 3, 4, 5}
+b=(4, 5, 6, 7, 8)
+print(a)
+print(a.difference(b))
+
+print("="*40)
+
+# difference_update()=====
+
+c={1, 2, 3, 4, 5}
+d=(4, 5, 6, 7, 8)
+print(c)
+c.difference_update(d)
+print(c)
+print("="*40)
+# intersection
+
+e={1,2,3,4,"x","Khaled"}
+f={"Khaled","X",2}
+print(e)
+print(e.intersection(f))
+print(e)
+print("="*40)
+# intersection_update
+
+g={1,2,3,4,"x","Khaled"}
+h={"Khaled","X",2}  
+print(g)
+print(h)
+g.intersection_update(h)
+print(g)
+print("="*40)
+
+# symmetric_diffrence
+i={1,2,3,4,"X","Khaled"}
+j={"Khaled","X",2}
+print(i)
+print(j)
+print(i.symmetric_difference(j))
+print(i)
+print("="*40)
+
+
+# symmetric_diffrence_update
+k={1,2,3,4,"X","Khaled"}
+l={"Khaled","X",2}
+print(k)
+print(l)
+k.symmetric_difference_update(l)
+print(k )
+print("="*40)
