@@ -1,0 +1,25 @@
+# issuperset
+
+a={1, 2, 3, 4, 5}
+b={1, 2, 3}
+c={1, 2, 3, 4, 5, 6}
+print(a.issuperset(b))  # True
+print(a.issuperset(c))  # false
+print("*" * 40)
+
+# issubset
+d={1, 2, 3,4}
+e={1, 2, 3}
+f={1, 2, 3, 4, 5}
+print(d.issubset(e))  # false
+print(d.issubset(f))  # true
+print("*" * 40)
+
+# isdisjoion
+
+g={1, 2, 3,4}
+h={1,2 ,3 }
+i={5, 6, 7}
+print(g.isdisjoint(h))  # false
+print(g.isdisjoint(i))  # true
+print("*" * 40)
