@@ -1,0 +1,65 @@
+# Dictionary
+
+user={ 
+    "name":"John",
+    "age":30,
+    "city":"New York"
+    }
+
+print(user)
+print(user["name"]) # Output: John
+print(user.get("age")) # Output: 30
+print(user.keys()) # Output: dict_keys(['name', 'age', 'city'])
+print(user.values()) # Output: dict_values(['John', 30, 'New York'])
+
+# Two-dimensional Dictionary
+
+languges={
+    "one":{
+        "name":"Python",
+        "progress":"80%"
+     },
+    "two":{
+        "name":"Java",
+        "progress":"70%"
+     },
+    "three":{
+        "name":"C++",
+        "progress":"60%"
+        },
+    }
+print(languges) # Output: {'one': {'name': 'Python', 'progress': '80%'}, 'two': {'name': 'Java', 'progress': '70%'}, 'three': {'name': 'C++', 'progress': '60%'}}
+print(languges["one"]) # Output: {'name': 'Python', 'progress': '80%'}
+print(languges["two"]) # Output: {'name': 'Java', 'progress': '70%'}
+print(languges["three"]) # Output: {'name': 'C++', 'progress': '60%'}
+print(languges["one"]["name"]) # Output: Python
+print(languges["one"]["progress"]) # Output: 80%
+
+print(len(languges)) # Output: 3)
+print(len(languges["one"])) # Output: 2)
+
+# create dictionary from varibles
+
+frameworkone={
+    "name":"Vue.js",
+    "progress":"90%"
+    }
+
+frameworktwo={
+    "name":"ReactJs",
+    "progress":"70%"
+    }
+
+
+frameworkthree={
+    "name":"Angular",
+    "progress":"60%"
+    }
+
+allfremwork={
+    "one":frameworkone,
+    "two":frameworktwo,
+    "three":frameworkthree
+    }
+
+print(allfremwork) # Output: {'one': {'name': 'Vue.js', 'progress': '90%'}, 'two': {'name': 'ReactJs', 'progress': '70%'}, 'three': {'name': 'Angular', 'progress': '60%'}}
