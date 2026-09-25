@@ -1,0 +1,38 @@
+# Dictionary Mwthods
+
+# 1. clear() - Removes all items from the dictionary
+
+user={
+    "name":"John"
+    }
+
+print(user)
+user.clear()
+print(user)
+
+print("--------------------------------------------------"*10)
+
+# update
+member={
+     "name":"John"
+     }
+print(member)
+member["age"]=30
+print(member)
+member.update({"city": "New York"})
+print(member)
+
+# copy
+
+main={
+    "name":"John"
+    }
+b=main.copy()
+print(b)
+
+main.update({"age":30})
+print(main)
+print(b)
+
+print(main.keys())
+print(main.values())
