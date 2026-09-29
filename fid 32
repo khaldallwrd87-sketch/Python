@@ -1,0 +1,42 @@
+# dictionary_methods
+
+#  setdefault
+
+user={
+    "name":"John"
+    }
+print(user)
+print(user.setdefault("name","khaled")) # John
+print(user)
+
+# popitem
+
+member={
+    "name":"John",
+    "age":30,
+
+    }
+print(member)
+member.update({"skils":"cpp"})
+print(member.popitem())
+
+# items
+
+view={
+    "name":"Khaled",
+    "skill":"Html"
+    }
+
+allitems=view.items()
+
+print(view)
+
+view["age"]=36
+print(allitems)
+
+# fromkeys
+
+a=('mykeyone','mykettwo','mykeythree')
+b="x"
+
+print(dict.fromkeys(a,b))
